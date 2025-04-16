@@ -10,8 +10,7 @@ def main():
             print(f"Número válido: {numero}")
         except ValueError as e:
             print(f"Error: {e}")
-        except NumeroDebeSerPositivo as e:
-            print(f"Error: {e}")
+      
         except KeyboardInterrupt:
             print("\nPrograma finalizado.")
             break
